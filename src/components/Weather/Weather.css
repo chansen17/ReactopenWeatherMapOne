@@ -1,0 +1,13 @@
+p {
+    font-size: 1.5em;
+    color: #ccc;
+}
+
+p span {
+    color: orangered;
+}
+
+.weatherIcon {
+    width: 150px;
+    height: auto;
+}

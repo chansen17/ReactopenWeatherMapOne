@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 30vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.form-input {
+    width: 100%;
+}
+
+form input {
+    font-size: 1.25em;
+    padding: .5em 1em;
+    outline: none;
+    border: none;
+    width: 80%;
+    margin: .5em 0;
+}
+
+form button {
+    width: 80%;
+    padding: .5em 1em;
+    font-size: 1em;
+}

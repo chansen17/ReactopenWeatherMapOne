@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+
+body {
+  background: linear-gradient(to right, #333, rgb(230, 151, 54), rgb(228, 64, 14));
+  line-height: 1.5;
+}
+
+.wrapper {
+  display: grid;
+  min-height: 80vh;
+  max-width: 960px;
+  height: 100%;
+  grid-template-columns: 2fr;
+  margin: 50px auto;
+  box-shadow: 5px 10px 30px #000;
+}
+
+.left {
+  background: url('https://cdn.dribbble.com/users/968424/screenshots/2287311/2015_10_12_flatlandscape_800x600_v01.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+.right {
+  background: #333;
+  text-align: center;
+}
+
+@media ( min-width: 470px) {
+  .wrapper {
+    height: 100%;
+    width: 100%;
+    grid-template-columns: .5fr 1fr; 
+  }
+}
+
+@media ( min-width: 560px) {
+  .wrapper {
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 2fr 1fr; 
+  }
+}
